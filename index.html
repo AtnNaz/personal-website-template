@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atn — Developer • Cybersecurity • Open Source</title>
+  <meta name="description" content="Atn's minimal, modern and fast portfolio template. HTML/CSS/JS single file.">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#7c3aed; --glass: rgba(255,255,255,0.04);
+      --glass-2: rgba(255,255,255,0.02);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Inter, system-ui, sans-serif;
+      background:var(--bg);
+      color:#e6eef6;
+      scroll-behavior:smooth;
+    }
+    a{text-decoration:none;color:inherit;cursor:pointer}
+    .container{max-width:1100px;margin:auto;padding:24px}
+
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+    .brand{display:flex;align-items:center;gap:10px}
+    .logo{width:40px;height:40px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700}
+    nav a{margin-left:16px;color:var(--muted)}
+
+    .section{padding:60px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
+
+    .hero{text-align:center;margin-top:40px}
+    .hero h1{font-size:2rem}
+    .hero p{color:var(--muted);max-width:600px;margin:12px auto 24px}
+
+    .btn{padding:10px 16px;border:none;border-radius:10px;font-weight:600;cursor:pointer}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#06b6d4);color:white}
+
+    .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:24px}
+    .proj{background:var(--card);padding:16px;border-radius:10px}
+    .proj h3{margin-bottom:8px}
+    .proj p{color:var(--muted);font-size:0.9rem}
+
+    .card{background:var(--card);padding:20px;border-radius:10px;margin-top:16px}
+    footer{margin-top:40px;text-align:center;color:var(--muted)}
+
+    .logo {
+  width: 60px; 
+  height: 60px;
+  border-radius: 12px; 
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111; 
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQG1f9pUb_zdkg/profile-displayphoto-scale_200_200/B56Ze1VMcPG0AY-/0/1751093923138?e=1762387200&v=beta&t=s1fIqzDmPdiJ-N6xNtVR42-fBTCH2rvLhP_yie6mCuc" alt="Logo"></div>
+        <strong>Ali Toprak Naz</strong>
+      </div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Hey, I'm Atn 👋</h1>
+      <p>An open-source enthusiast, Linux lover, and Android root enjoyer who builds things just for the thrill of it.</p>
+      <a href="#projects" class="btn btn-primary">Check My Projects</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="card">
+        <p>I'm Ali Toprak Naz (Atn) — an open-source lover, Linux enthusiast, and a developer who can't stop rooting Android devices.</p>
+        <p>I explore everything from backend development to hardware, and from PLCs to embedded systems.</p>
+        <p>Cybersecurity, automation, system design, and mechanical engineering aren’t just hobbies — they are my lifestyle.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="proj">
+          <h3>Project 1</h3>
+          <p>Text</p>
+        </div>
+        <div class="proj">
+          <h3>Project2</h3>
+          <p>Text</p>
+        </div>
+        <div class="proj">
+          <h3>Project3</h3>
+          <p>Text</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>If you want to reach out:</p>
+        <p><strong>Email:</strong> <a href="mailto:email@alitopraknaz.com.tr"> email@alitopraknaz.com.tr</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/AtnNaz" target="_blank"> github.com/AtnNaz</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alitopraknaz/?originalSubdomain=tr" target="_blank"> linkedin.com/in/alitopraknaz</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Atn • All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
